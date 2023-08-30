@@ -21,7 +21,7 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_weight="1"
-            android:backgroundTint="#FFC107"
+            android:backgroundTint="@android:color/holo_blue_light"
             app:srcCompat="@drawable/baseline_photo_camera_24" />
 
         <Button
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:backgroundTint="#FFC107"
+            android:backgroundTint="@android:color/holo_blue_light"
             android:gravity="center_horizontal"
             android:onClick="capture"
             android:text="Take Photo" />
@@ -79,9 +79,10 @@
         android:id="@+id/timeTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
         android:text="Date:\n Time"
+        android:textColor="@android:color/holo_blue_light"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/timebtn"
         app:layout_constraintTop_toBottomOf="@+id/timebtn" />
@@ -90,8 +91,9 @@
         android:id="@+id/timebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:backgroundTint="#FFC107"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/holo_blue_light"
         android:gravity="center"
         android:text="select Date and Time"
         app:layout_constraintStart_toStartOf="parent"

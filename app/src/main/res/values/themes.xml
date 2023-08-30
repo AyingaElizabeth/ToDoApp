@@ -6,9 +6,9 @@
     </style>
 
     <style name="Theme.ToDoApp" parent="Base.Theme.ToDoApp" />
-    <style name="statusbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:statusBarColor">#FFC107</item>
-        <item name="android:windowBackground">#FFC107</item>
-        <item name="android:navigationBarColor">#FFC107 </item>
+    <style name="mytheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:navigationBarColor">@android:color/holo_blue_light</item>
     </style>
 </resources>

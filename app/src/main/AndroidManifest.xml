@@ -22,13 +22,15 @@
         <activity
             android:name=".AddMore"
             android:exported="true"
-            android:theme="@style/statusbar"/>
+            android:theme="@style/mytheme"/>
         <activity
             android:name=".DetailsActivity"
-            android:exported="false" />
+            android:exported="true"
+            android:theme="@style/mytheme"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/mytheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
